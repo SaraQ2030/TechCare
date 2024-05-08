@@ -46,6 +46,12 @@ https://www.canva.com/design/DAGEkE6e5qk/PMreR9pmtzD674fN389cjw/edit?utm_content
 https://documenter.getpostman.com/view/33389231/2sA3JJA441
 ## Figma
 https://www.figma.com/file/Ifmivq19uWHkpAEAQG3IZ3/Figma-basics?type=design&node-id=1669%3A162202&mode=design&t=AVVffBJIKCgRwYn8-1
+
+## Models | Service | Controller
+| --- | --- | --- |
+
+
+
 ## Endpoints
 
 _Sara's Endpoints_
