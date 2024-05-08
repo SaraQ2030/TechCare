@@ -48,11 +48,11 @@ https://documenter.getpostman.com/view/33389231/2sA3JJA441
 https://www.figma.com/file/Ifmivq19uWHkpAEAQG3IZ3/Figma-basics?type=design&node-id=1669%3A162202&mode=design&t=AVVffBJIKCgRwYn8-1
 
 ## Models
-Customer
-Product
-Request
-CustomerDTO
-RequestDTO
+- Customer
+- Product
+- Request
+- CustomerDTO
+- RequestDTO
 
 ## Endpoints
 
