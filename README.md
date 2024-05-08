@@ -1,4 +1,4 @@
-![Logo](https://github.com/DeemaSWE/TechCare/assets/90179257/cf227e04-3d70-4f45-b261-f62519a8dff8)
+![Logo](https://github.com/SaraQ2030/TechCare/assets/159685978/c0243acc-c862-425b-a84b-fa692961a201)
 # TechCare
 
 _Welcome to TechCare!_
