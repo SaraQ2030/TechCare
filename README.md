@@ -71,27 +71,27 @@ https://www.figma.com/file/Ifmivq19uWHkpAEAQG3IZ3/Figma-basics?type=design&node-
 _Sara's Endpoints_
 | No. | Endpoint | Description |
 | --- | --- | --- |
-| 1 | GET /api/v1/customer/get-all | Get all customers |
-| 2 | POST /api/v1/customer/register | Customer register |
-| 3 | GET /api/v1/customer/get-profile | Customer get their profile |
-| 4 | PUT /api/v1/customer/update | Customer update their profile |
-| 5 | DELETE /api/v1/customer/delete/{customerId} | Admin delete customer |
+| 1 | POST /api/v1/customer/register | Customer register |          
+| 2 | GET /api/v1/customer/get-profile | Customer get their profile |
+| 3 | PUT /api/v1/customer/update | Customer update their profile |
+| 4 | GET /api/v1/product/get-all | Get all products |
+| 5 | POST /api/v1/request/customer-send-request/{serviceId} | Customer send a request |
 | 6 | PUT /api/v1/customer/rate-tech/{techID}/{reqId}/{rate} | Customer rate technician |
 | 7 | GET /api/v1/order/get-order-by-status/{status} | Customer get order by status |
-| 8 | GET /api/v1/order/get-order-by-date/{date} | Customer get order by date |
-| 9 | GET /api/v1/product/get-all | Get all products |
-| 10 | POST /api/v1/product/add-product/{catId} | Admin add a product |
-| 11 | PUT /api/v1/product/update-product/{productId}/{catId} | Admin update a product |
-| 12 | DELETE /api/v1/product/delete-product/{productId} | Admin delete a product |
-| 13 | GET /api/v1/product/get-product/{productId} | Get product by id |
-| 14 | GET /api/v1/product/get-product-category/{category} | Get products by category |
-| 15 | GET /api/v1/product/filter-price/{minPrice}/{maxPrice} | Get products by price range |
-| 16 | GET /api/v1/request/customer-get-my-request | Customer get their requests |
-| 17 | POST /api/v1/request/customer-send-request/{serviceId} | Customer send a request |
-| 18 | POST /api/v1/request/trainer-send-request/{serviceId} | Trainer send a request |
+| 8 | GET /api/v1/order/get-order-by-date/{date} | Customer get order by date   
+| 9 | GET /api/v1/request/customer-get-my-request | Customer get their requests |
+| 10 |  POST /api/v1/request/trainer-send-request/{serviceId} | Trainer send a request |
+| 11 |  PUT /api/v1/request/change-customer-request-status/{reqId} | Technician change customer requests status to be completed |
+| 12 | PUT /api/v1/request/customer-rate-request/{reqId}/{rate} | Customer Rate Request |
+| 13 |GET /api/v1/product/get-product/{productId} | Get product by id |
+| 14 |GET /api/v1/product/get-product-category/{category} | Get products by category |
+| 15 |GET /api/v1/product/filter-price/{minPrice}/{maxPrice} | Get products by price range |
+| 16 |POST /api/v1/product/add-product/{catId} | Admin add a product |
+| 17 | DELETE /api/v1/customer/delete/{customerId} | Admin delete customer |
+| 18 |PUT /api/v1/product/update-product/{productId}/{catId} | Admin update a product |
 | 19 | DELETE /api/v1/request/delete/{request_num} | Admin delete a request |
-| 20 | PUT /api/v1/request/change-customer-request-status/{reqId} | Technician change customer requests status to be completed |
-| 21 | PUT /api/v1/request/customer-rate-request/{reqId}/{rate} | Customer Rate Request |
+| 20 |DELETE /api/v1/product/delete-product/{productId} | Admin delete a product |
+| 21 | GET /api/v1/customer/get-all | Get all customers |
 | 22 | GET /api/v1/request/customer-request-status/{status} | Customer get Requests by status |
 | 23 | GET /api/v1/request/change-trainer-request-status/{reqId} | Technician change requests status to be completed and set hours |
 | 24 | GET /api/v1/request/tech-get-request | Technician get requests |
