@@ -54,6 +54,18 @@ https://www.figma.com/file/Ifmivq19uWHkpAEAQG3IZ3/Figma-basics?type=design&node-
 - CustomerDTO
 - RequestDTO
 
+## Security Configuration
+- AuthController
+- CustomerContrller
+- ProductController
+- RequestController
+- TrainerController
+  
+## Junit Test
+- CategoryControllerTest
+- CustomerControllerTest
+- ProductControllerTest
+
 ## Endpoints
 
 _Sara's Endpoints_
