@@ -49,6 +49,7 @@ https://www.figma.com/file/Ifmivq19uWHkpAEAQG3IZ3/Figma-basics?type=design&node-
 
 ## Models | Service | Controller
 | --- | --- | --- |
+| Customer | CustomerService  | CustomerController |
 
 
 
