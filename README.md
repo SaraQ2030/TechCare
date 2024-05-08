@@ -101,4 +101,4 @@ _Sara's Endpoints_
 ![Class_Diagram](https://github.com/SaraQ2030/TechCare/assets/159685978/cdeff2a0-2f02-42c2-9297-f78c8c74018b)
 
 ## Use Case Diagram
-![Final_use_case_Diagram drawio](https://github.com/DeemaSWE/test/assets/90179257/68ee24a9-0153-4db3-b50f-3689ca525b07)
+![use_case_Diagram drawio](https://github.com/SaraQ2030/TechCare/assets/159685978/1548a44b-1203-4ee9-add9-3cdac9d3d66d)
