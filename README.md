@@ -81,23 +81,23 @@ _Sara's Endpoints_
 | 8 | GET /api/v1/request/customer-get-my-request | Customer get their requests |  
 | 9 | PUT /api/v1/request/customer-rate-request/{reqId}/{rate} | Customer Rate Request |
 | 10 |POST /api/v1/request/trainer-send-request/{serviceId} | Trainer send a request |   
-| 11 |GET /api/v1/request/change-trainer-request-status/{reqId} | 
-| 12 |Technician change requests status to be completed and set hours |
-| 13 |GET /api/v1/product/get-product/{productId} | Get product by id |
-| 14 |GET /api/v1/product/get-product-category/{category} | Get products by category |
-| 15 |GET /api/v1/product/filter-price/{minPrice}/{maxPrice} | Get products by price range |
-| 16 |POST /api/v1/product/add-product/{catId} | Admin add a product |
-| 17 | DELETE /api/v1/customer/delete/{customerId} | Admin delete customer |
-| 18 |PUT /api/v1/product/update-product/{productId}/{catId} | Admin update a product |
-| 19 | DELETE /api/v1/request/delete/{request_num} | Admin delete a request |
-| 20 |DELETE /api/v1/product/delete-product/{productId} | Admin delete a product |
-| 21 | GET /api/v1/customer/get-all | Get all customers |
-| 22 | GET /api/v1/request/customer-request-status/{status} | Customer get Requests by status |
-| 23 | GET /api/v1/order/get-order-by-date/{date} | Customer get order by date 
-| 24 | GET /api/v1/request/tech-get-request | Technician get requests |
-| 25 | GET /api/v1/request/trainer-get-request | Trainer get their requests |
-| 26 | GET /api/v1/auth/get-all | Admin get all users |                     
-| 27 | GET /api/v1/order/get-order-by-status/{status} | Customer get order by status | 
+| 11 |GET /api/v1/request/change-trainer-request-status/{reqId} | Technician change requests status to be completed and set hours |
+| 12 |GET /api/v1/product/get-product/{productId} | Get product by id |
+| 13 |GET /api/v1/product/get-product-category/{category} | Get products by category |
+| 14 |GET /api/v1/product/filter-price/{minPrice}/{maxPrice} | Get products by price range |
+| 15 |POST /api/v1/product/add-product/{catId} | Admin add a product |
+| 16 | DELETE /api/v1/customer/delete/{customerId} | Admin delete customer |
+| 17 |PUT /api/v1/product/update-product/{productId}/{catId} | Admin update a product |
+| 18 | DELETE /api/v1/request/delete/{request_num} | Admin delete a request |
+| 19 |DELETE /api/v1/product/delete-product/{productId} | Admin delete a product |
+| 20 | GET /api/v1/customer/get-all | Get all customers |
+| 21 | GET /api/v1/request/customer-request-status/{status} | Customer get Requests by status |
+| 22 | GET /api/v1/order/get-order-by-date/{date} | Customer get order by date 
+| 23 | GET /api/v1/request/tech-get-request | Technician get requests |
+| 24 | GET /api/v1/request/trainer-get-request | Trainer get their requests |
+| 25 | GET /api/v1/auth/get-all | Admin get all users |                     
+| 26 | GET /api/v1/order/get-order-by-status/{status} | Customer get order by status | 
+
 ## Class Diagram
 ## Use Case Diagram
 ![Final_use_case_Diagram drawio](https://github.com/DeemaSWE/test/assets/90179257/68ee24a9-0153-4db3-b50f-3689ca525b07)
