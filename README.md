@@ -75,14 +75,14 @@ _Sara's Endpoints_
 | 2 | GET /api/v1/customer/get-profile | Customer get their profile |
 | 3 | PUT /api/v1/customer/update | Customer update their profile |
 | 4 | GET /api/v1/product/get-all | Get all products |
-| 5 | POST /api/v1/request/customer-send-request/{serviceId} | Customer send a request |
-| 6 | PUT /api/v1/customer/rate-tech/{techID}/{reqId}/{rate} | Customer rate technician |
-| 7 | GET /api/v1/order/get-order-by-status/{status} | Customer get order by status |
-| 8 | GET /api/v1/order/get-order-by-date/{date} | Customer get order by date   
-| 9 | GET /api/v1/request/customer-get-my-request | Customer get their requests |
-| 10 |  POST /api/v1/request/trainer-send-request/{serviceId} | Trainer send a request |
-| 11 |  PUT /api/v1/request/change-customer-request-status/{reqId} | Technician change customer requests status to be completed |
-| 12 | PUT /api/v1/request/customer-rate-request/{reqId}/{rate} | Customer Rate Request |
+| 5 | POST /api/v1/request/customer-send-request/{serviceId} | Customer send a request |      
+| 6 | PUT /api/v1/request/change-customer-request-status/{reqId} | Technician change customer requests status to be completed |
+| 7 | PUT /api/v1/customer/rate-tech/{techID}/{reqId}/{rate} | Customer rate technician |
+| 8 | GET /api/v1/request/customer-get-my-request | Customer get their requests |  
+| 9 | PUT /api/v1/request/customer-rate-request/{reqId}/{rate} | Customer Rate Request |
+| 10 |POST /api/v1/request/trainer-send-request/{serviceId} | Trainer send a request |   
+| 11 |GET /api/v1/request/change-trainer-request-status/{reqId} | 
+| 12 |Technician change requests status to be completed and set hours |
 | 13 |GET /api/v1/product/get-product/{productId} | Get product by id |
 | 14 |GET /api/v1/product/get-product-category/{category} | Get products by category |
 | 15 |GET /api/v1/product/filter-price/{minPrice}/{maxPrice} | Get products by price range |
@@ -93,11 +93,11 @@ _Sara's Endpoints_
 | 20 |DELETE /api/v1/product/delete-product/{productId} | Admin delete a product |
 | 21 | GET /api/v1/customer/get-all | Get all customers |
 | 22 | GET /api/v1/request/customer-request-status/{status} | Customer get Requests by status |
-| 23 | GET /api/v1/request/change-trainer-request-status/{reqId} | Technician change requests status to be completed and set hours |
+| 23 | GET /api/v1/order/get-order-by-date/{date} | Customer get order by date 
 | 24 | GET /api/v1/request/tech-get-request | Technician get requests |
 | 25 | GET /api/v1/request/trainer-get-request | Trainer get their requests |
-| 26 | GET /api/v1/auth/get-all | Admin get all users |
-
+| 26 | GET /api/v1/auth/get-all | Admin get all users |                     
+| 27 | GET /api/v1/order/get-order-by-status/{status} | Customer get order by status | 
 ## Class Diagram
 ## Use Case Diagram
 ![Final_use_case_Diagram drawio](https://github.com/DeemaSWE/test/assets/90179257/68ee24a9-0153-4db3-b50f-3689ca525b07)
